@@ -1,5 +1,8 @@
 .welcome {
     background-image: url(/assets/backgrounds/h_img.jpg);
+    /* width: 100hw; */
+    height: 120vh;
+    background-repeat: no-repeat;
     background-size: cover;
 }
 
@@ -13,4 +16,13 @@
 
 .hidden {
     display: none;
+}
+
+::placeholder{
+    color: white;
+}
+
+input, textarea{
+    border: 1px solid white;
+    color: white;
 }
