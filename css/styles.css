@@ -9,3 +9,7 @@
 .contact {
     background-image: url(/assets/backgrounds/c_image.jpg);
 }
+
+.hidden {
+    display: none;
+}

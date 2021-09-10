@@ -7,23 +7,26 @@
         <link href="css/styles.css" type="text/css" rel="stylesheet">
         <title>Delani Studio</title>
     </head>
-    <body class="container">
+    <body class="">
 
         <section class="welcome">
-            <div>
-                <img src="assets/logo/logo.png">
-            </div>
-            <div>
-                <h1>WELCOME<br> TO DELANI STUDIO</h1>
-                <p>AMAZING PEOPLE ARE MAKING AMAZING DESIGNS IN A FUN ENVIRONMENT</p>
-            </div>
-            <div>
-                <img src="assets/mouse_click.png">
-            </div>
+            <div class="container">
+                <div>
+                    <img src="assets/logo/logo.png">
+                </div>
+                <div>
+                    <h1>WELCOME<br> TO DELANI STUDIO</h1>
+                    <p>AMAZING PEOPLE ARE MAKING AMAZING DESIGNS IN A FUN ENVIRONMENT</p>
+                </div>
+                <div>
+                    <img src="assets/mouse_click.png">
+                </div>
+            </div>            
         </section>
 
         <section class="about">
-            <h2>ABOUT US</h2>
+            <div class="container">
+                <h2>ABOUT US</h2>
             <ul>
                 <li>When you work with us, you are part of a team of committed collaborators. 
                     All aspects of our software development process are integrated, interactive and agile.
@@ -38,60 +41,106 @@
                     Then we help translate them into effective and elegant solutions.
                 </li>
             </ul>
+            </div>
         </section>
 
         <section class="services">
-            <h2>SERVICES</h2>
-            <ul>
-                <li>Before we  sign a contract or write a line of code our team will spend the necessary time needed to understand your product vision</li>
-                <li>The outcome of this scoping is a proposal or high -level statement of work</li>
-                <li>Based on your requirements, we can provide a complete offering or just the pieces that you need.</li>
-            </ul>
+            <div class="container">
+                <h2>SERVICES</h2>
+                <ul>
+                    <li>Before we  sign a contract or write a line of code our team will spend the necessary time needed to understand your product vision</li>
+                    <li>The outcome of this scoping is a proposal or high -level statement of work</li>
+                    <li>Based on your requirements, we can provide a complete offering or just the pieces that you need.</li>
+                </ul>
+            </div>
         </section>
 
         <section class="whatwedo">
-            <h2>WHAT WE DO</h2>
-            <div>
-                <img src="assets/services_icons/design_icon.png">
-            </div>
-            <div>
-                <img src="assets/services_icons/dev_icon.png">
-            </div>
-            <div>
-                <img src="assets/services_icons/product_icon.png">
+            <div class="container text-center">
+                <h2>WHAT WE DO</h2>
+                <div class="row align-items-center">
+                    <div class="col">
+                        <div>
+                            <div>
+                                <img src="assets/services_icons/design_icon.png">
+                                <h4>DESIGN</h4>
+                            </div>
+                            <div class="hidden">
+                                <h4>DESIGN</h4>
+                                <p class="text-center">
+                                    Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nulla, nam labore. Deserunt, enim excepturi. Perspiciatis.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col">
+                        <div>
+                            <div>
+                                <img src="assets/services_icons/dev_icon.png">
+                                <h4>DEVELOPMENT</h4>
+                            </div>
+                            <div class="hidden">
+                                <h4>DEVELOPMENT</h4>
+                                <p class="text-center">
+                                    Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nulla, nam labore. Deserunt, enim excepturi. Perspiciatis.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col">
+                        <div>
+                            <div>
+                                <img src="assets/services_icons/product_icon.png">
+                                <h4>PROJECT MANAGEMENT</h4>
+                            </div>
+                            <div class="hidden">
+                                <h4>PROJECT MANAGEMENT</h4>
+                                <p class="text-center">
+                                    Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nulla, nam labore. Deserunt, enim excepturi. Perspiciatis.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    
+                    
+                </div>
             </div>
         </section>
 
         <section class="portfolio">
-            <h2>PORTFOLIO</h2>
-            <div>
-                <img src="assets/portfolio/work1.jpg">
-            </div>
-            <div>
-                <img src="assets/portfolio/work2.jpg">
-            </div>
-            <div>
-                <img src="assets/portfolio/work3.jpg">
-            </div>
-            <div>
-                <img src="assets/portfolio/work4.jpg">
-            </div>
-            <div>
-                <img src="assets/portfolio/work5.jpg">
-            </div>
-            <div>
-                <img src="assets/portfolio/work6.jpg">
-            </div>
-            <div>
-                <img src="assets/portfolio/work7.jpg">
-            </div>
-            <div>
-                <img src="assets/portfolio/work8.jpg">
+            <div class="container">
+                <h2>PORTFOLIO</h2>
+                <div>
+                    <img src="assets/portfolio/work1.jpg">
+                </div>
+                <div>
+                    <img src="assets/portfolio/work2.jpg">
+                </div>
+                <div>
+                    <img src="assets/portfolio/work3.jpg">
+                </div>
+                <div>
+                    <img src="assets/portfolio/work4.jpg">
+                </div>
+                <div>
+                    <img src="assets/portfolio/work5.jpg">
+                </div>
+                <div>
+                    <img src="assets/portfolio/work6.jpg">
+                </div>
+                <div>
+                    <img src="assets/portfolio/work7.jpg">
+                </div>
+                <div>
+                    <img src="assets/portfolio/work8.jpg">
+                </div>
             </div>
         </section>
 
         <section class="contact">
-            <h2>CONTACT US</h2>
+            <div class="container">
+                <h2>CONTACT US</h2>
             <form>
                 <div>
                     <input type="text" placeholder="Name...">
@@ -101,22 +150,25 @@
                     <textarea rows="4" placeholder="Your message here..."></textarea>
                 </div>
             </form>
+            </div>  
         </section>
 
         <section class="social">
-            <div>
-                <a href="#"><img src="assets/social_icons/twitter.png" alt=""width="40px" height="40px"></a>
-                <a href="#"><img src="assets/social_icons/dribble.png" alt=""width="40px" height="40px"></a>
-                <a href="#"><img src="assets/social_icons/facebook.png" alt=""width="40px" height="40px"></a>
-                <a href="#"><img src="assets/social_icons/g_plus.png" alt=""width="40px" height="40px"></a>
-                <a href="#"><img src="assets/social_icons/skype.png" alt=""width="40px" height="40px"></a>
-                <a href="#"><img src="assets/social_icons/stumble_upon.png" alt=""width="40px" height="40px"></a>
-                <a href="#"><img src="assets/social_icons/behance.png" alt=""width="40px" height="40px"></a>
-                <a href="#"><img src="assets/social_icons/pinterest.png" alt=""width="40px" height="40px"></a>
-                <a href="#"><img src="assets/social_icons/you_tube.png" alt=""width="40px" height="40px"></a>
-            </div>
-            <div>
-                <p>DELANI STUDIO<br>2019</p>
+            <div class="container">
+                <div>
+                    <a href="#"><img src="assets/social_icons/twitter.png" alt=""width="40px" height="40px"></a>
+                    <a href="#"><img src="assets/social_icons/dribble.png" alt=""width="40px" height="40px"></a>
+                    <a href="#"><img src="assets/social_icons/facebook.png" alt=""width="40px" height="40px"></a>
+                    <a href="#"><img src="assets/social_icons/g_plus.png" alt=""width="40px" height="40px"></a>
+                    <a href="#"><img src="assets/social_icons/skype.png" alt=""width="40px" height="40px"></a>
+                    <a href="#"><img src="assets/social_icons/stumble_upon.png" alt=""width="40px" height="40px"></a>
+                    <a href="#"><img src="assets/social_icons/behance.png" alt=""width="40px" height="40px"></a>
+                    <a href="#"><img src="assets/social_icons/pinterest.png" alt=""width="40px" height="40px"></a>
+                    <a href="#"><img src="assets/social_icons/you_tube.png" alt=""width="40px" height="40px"></a>
+                </div>
+                <div>
+                    <p>DELANI STUDIO<br>2019</p>
+                </div>
             </div>
         </section>
     </body>
