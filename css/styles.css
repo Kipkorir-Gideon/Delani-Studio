@@ -1,5 +1,6 @@
 .welcome {
     background-image: url(/assets/backgrounds/h_img.jpg);
+    background-size: cover;
 }
 
 .services {
