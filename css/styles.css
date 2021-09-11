@@ -2,11 +2,24 @@
     padding: 0;
     margin: 0;
 }
+
+li{
+    list-style: none;
+}
 .welcome {
     background-image: url(/assets/backgrounds/h_img.jpg);
     height: 120vh;
     background-size: 100% 100%;
     color: white;
+    padding-top: 160px;
+}
+
+.logo{
+    padding-bottom: 20px;
+}
+
+.mouse{
+    margin-top: 140px;
 }
 
 .services {
