@@ -5,6 +5,7 @@
 
 li{
     list-style: none;
+    padding: 8px;
 }
 .welcome {
     background-image: url(/assets/backgrounds/h_img.jpg);
