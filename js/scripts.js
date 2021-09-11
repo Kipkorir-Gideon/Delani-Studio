@@ -7,4 +7,10 @@ $(document).ready(function(){
         $(this).siblings().toggle();
         $(this).toggle();
     });
+    $(".toHover").hover(function(){
+        $(this).find(".whenHover").fadeIn();
+    },
+    function() {
+        $(this).find(".whenHover").fadeOut();
+    });
 });
