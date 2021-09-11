@@ -29,6 +29,15 @@ li{
     color: white;
 }
 
+.whenHover{
+    display: none;
+    text-align: center;
+    cursor: pointer;
+    text-transform: uppercase;
+    background: transparent;
+    border: 2px solid white;
+}
+
 .contact {
     background-image: url(/assets/backgrounds/c_image.jpg);
     background-size: 100% 100%;
