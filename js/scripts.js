@@ -24,17 +24,17 @@ function sendMessage() {
     
     if(name.length === 0){
         alert("Enter your name!");
-        break;
+        throw new Error;
     }
     else if(email.length === 0){
         alert("Enter your email!");
-        break;
+        throw new Error;
     }
     else if(message.length === 0){
         alert("Write your message!");
-        break;
+        throw new Error;
     }
     else{
-        alert("Hey" + name + ", We have receiived your message. Thank you for reaching out to us.")
+        alert("Hey " + name + ", We have receiived your message. Thank you for reaching out to us.")
     }
 }
