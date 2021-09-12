@@ -22,6 +22,7 @@ function sendMessage() {
     var email = document.getElementById("email").value;
     var message = document.getElementById("message").value;
     
+    event.preventDefault()
     if(name.length === 0){
         alert("Enter your name!");
         throw new Error;
