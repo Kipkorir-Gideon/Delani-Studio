@@ -7,6 +7,10 @@ li{
     list-style: none;
     padding: 8px;
 }
+
+body{
+    font-family: 'Noto Sans', sans-serif;
+}
 .welcome {
     background-image: url(../assets/backgrounds/h_img.jpg);
     height: auto;
@@ -62,6 +66,7 @@ li{
 }
 
 input{
+    margin: 2px;
     margin-left: 2%;
 }
 
