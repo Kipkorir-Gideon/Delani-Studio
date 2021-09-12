@@ -8,7 +8,7 @@ li{
     padding: 8px;
 }
 .welcome {
-    background-image: url(/assets/backgrounds/h_img.jpg);
+    background-image: url(../assets/backgrounds/h_img.jpg);
     height: auto;
     background-size: 100% 100%;
     color: white;
@@ -24,7 +24,7 @@ li{
 }
 
 .services {
-    background-image: url(/assets/backgrounds/s_image.jpg);
+    background-image: url(../assets/backgrounds/s_image.jpg);
     background-size: 100% 100%;
     color: white;
     height: auto;
@@ -49,7 +49,7 @@ li{
 }
 
 .contact {
-    background-image: url(/assets/backgrounds/c_image.jpg);
+    background-image: url(../assets/backgrounds/c_image.jpg);
     background-size: 100% 100%;
 }
 
