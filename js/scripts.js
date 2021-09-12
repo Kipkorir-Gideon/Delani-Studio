@@ -36,6 +36,8 @@ function sendMessage() {
         throw new Error;
     }
     else{
-        alert("Hey " + name + ", We have receiived your message. Thank you for reaching out to us.")
+        alert("Hey " + name + ", We have received your message. Thank you for reaching out to us.")
     }
+    var toReset = document.getElementById("mc-embedded-subscribe-form");
+    toReset.reset(); 
 }
