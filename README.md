@@ -28,7 +28,7 @@ To access this project on your local files, you can clone it using these steps
 ngetichgideon21@gmail.com
 
 ## Live site
-View live site [here](https://kipkorir-gideon.github.io/Akan-Name/).
+View live site [here](https://kipkorir-gideon.github.io/Delani-Studio/).
 
 ## License & copyright
 Licensed under the [MIT License](LICENSE).<br />
