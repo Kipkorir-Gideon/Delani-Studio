@@ -8,9 +8,9 @@ $(document).ready(function(){
         $(this).toggle();
     });
     $(".toHover").hover(function(){
-        $(this).find(".whenHover").fadeIn();
+        $(this).find(".whenHover").show({opacity: 0.7});
     },
     function() {
-        $(this).find(".whenHover").fadeOut();
+        $(this).find(".whenHover").hide();
     });
 });
